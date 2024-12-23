@@ -1,2 +1,2 @@
-# Pocket_Prediction_Pipeline
+# Pocket Prediction Pipeline
 Nextflow pipeline for P2Rank 
