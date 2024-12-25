@@ -45,10 +45,10 @@ Dataset files "file.ds" require that the absolute path be used, an example file 
 ```
 # no header => dataset contains list of protein files
 
-/Users/FrederickMappin/Desktop/test/AAEL000614.pdb
-/Users/FrederickMappin/Desktop/test/AAEL000616.pdb
-/Users/FrederickMappin/Desktop/test/AAEL000628.pdb
-/Users/FrederickMappin/Desktop/test/AAEL001221.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000614.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000616.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000628.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL001221.pdb
 
 ```
 
@@ -67,9 +67,9 @@ Prepare Dataset test.ds file by adding absolute to the name!! Ex. /Users/Desktop
 
 # Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
 
- nextflow run P2RankPipeline.nf --inputds absolute/path/test/test.ds --outdir ./results/ --predictor P2Rank --model Alphafold
+ nextflow run P2RankPipeline.nf --inputds ./test/test.ds --outdir ./results/ --predictor P2Rank --model Alphafold
 
 # Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
-nextflow run P2RankPipeline.nf --inputds /absolute/path/test/test.ds --outdir ./results/ --predictor P2Rank
+nextflow run P2RankPipeline.nf --inputds ./test/test.ds --outdir ./results/ --predictor P2Rank
 ```
