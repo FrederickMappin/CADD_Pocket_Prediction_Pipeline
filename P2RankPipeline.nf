@@ -14,22 +14,27 @@ Pocket Prediciton-NF PIPELINE Started 2024-23-12.
 
 Pipeline steps:
 
-    1A. Pocket Prediction using  P2Rank
-        P2Rank -- P2Rank is a stand-alone command-line program for fast and accurate prediction of ligand-binding 
-        sites from protein structures.
-        - Parameters:
-            - Predictor: P2Rank
-            - Model: Alphafold or Normal
-            - Input: PDB files
+    1A. Pocket Prediction using P2Rank on a directory of PDB files
+        - inputdir: Directory containing PDB files
+        - predictor: P2Rank
+        - model: Default model
+        
+    1B. Pocket Prediction using  Fpocket ob a directory of PDB files
+        - inputdir: Directory containing PDB files
+        - predictor: Fpocket
+        - model: Default model
 
-    1B. Pocket Prediction using  Fpocket
-        Fpocket -- Fpocket is a very fast open source protein pocket detection algorithm based on Voronoi tessellation.
-        - Parameters:
-            - Predictor: Fpocket
-            - Input: PDB files
+    1C. Pocket Prediction using P2Rank on a dataset of Alphafold PDB files
+        - inputds: Dataset file containing Alphafold PDB files
+        - predictor: P2Rank
+        - model: Alphafold
+
+    1D. Pocket Prediction using P2Rank on a dataset of non-Alphafold PDB files
+        - inputds: Dataset file containing non-Alphafold PDB files
+        - predictor: P2Rank
+        - model: Default model
 
 */
-
 
 def helpMessage() {
     log.info"""
@@ -38,17 +43,35 @@ def helpMessage() {
 ========================================================================================
 
     Usage:
-    The typical command for running the pipeline is as follows:
+The typical command for running the pipeline is as follows:
+nf-Pocket Prediction has four different mode that difer based on input type , protein model, and pocket predictor.
+========================================================================================
+Run P2Rank Predictor on a Directory of PDB files:
+    
+    ```nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank```
 
-    nextflow run P2RankPipeline.nf --inputds /Users/freddymappin/Desktop/alpha/test.ds --outdir /Users/freddymappin/Desktop/test_pdb/ --predictor p2rank
-    nextflow run main.nf -profile <profile> --input '/path/to/input/*_{R1,R2}*.ext' --outdir '/path/to/output/'
+Run FPocket Predictor on a Directory of PDB files:
+    
+    ```nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor fpocket```
+
+Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
+    
+    ```nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank --model Alphafold```
+
+Run P2Rank Predictor on a Dataset of non-Alphafold PDB files
+    
+    ``nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank``` 
 
     Required arguments:
-         -profile                      Configuration profile to use.
-         --input                       Directory pattern for input files: "$projectDir/test/*.pdb"
+
+    --inputdir or inputds                       Directory for input PDB files or dataset file
+    --predictor                                 Pocket predictor to use (P2Rank or Fpocket)
+
+    Optional arguments:
+    --model                                     Model to use for P2Rank (Alphafold or Normal)
 
     Save options:
-        --outdir                       Specifies where to save the output from the nextflow run.
+    --outdir                       Specifies where to save the output from the nextflow run.
 
     """.stripIndent()
 }
