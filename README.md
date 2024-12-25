@@ -7,23 +7,24 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 
 ## Usage 
 
+```
 nf-Pocket Prediction has four different mode that difer based on input type , protein model, and pocket predictor. 
 
-#### Run P2Rank Predictor on a Directory of PDB files 
+# Run P2Rank Predictor on a Directory of PDB files 
 
-``` nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank ```
+nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank 
 
-#### Run FPocket Predictor on a Directory of PDB files 
+# Run FPocket Predictor on a Directory of PDB files 
 
-``` nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank ```
+ nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank 
 
-#### Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
+# Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
 
-``` nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank --model Alphafold```
+ nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank --model Alphafold
 
-#### Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
+# Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
-```nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank ```
+nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank ```
 
 
 
