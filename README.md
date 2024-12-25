@@ -40,6 +40,17 @@ Required arguments:
 
 # Testing and set-up 
 
+Dataset files "file.ds" require that the absolute path an example file can be found in the test folder:
+
+```
+# no header => dataset contains list of protein files
+
+/Users/FrederickMappin/Desktop/alpha/AAEL000614.pdb
+/Users/FrederickMappin/Desktop/alpha/AAEL000616.pdb
+/Users/FrederickMappin/Desktop/alpha/AAEL000628.pdb
+
+```
+
 nf-Pocket Prediciton requires little set-up assuming you have nextflow and Docker probably installed. Required Docker containers are automatically pulled for use and indicated in the config file. If setting up for the first time it is suggested to run testing using test data found in the test folder.
 
 ```
