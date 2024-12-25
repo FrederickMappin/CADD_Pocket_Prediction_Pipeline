@@ -51,11 +51,13 @@ nextflow run P2RankPipeline.nf --inputdir ./test/ --outdir ./results/ --predicto
 
  nextflow run P2RankPipeline.nf --inputdir ./test/ --outdir ./results/ --predictor fpocket
 
+Prepare Dataset test.ds file by adding absolute to the name!! Ex. /Users/Desktop/files/AAEL000614.pdb
+
 # Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
 
- nextflow run P2RankPipeline.nf --inputds ./test/test.ds --outdir ./results/ --predictor P2Rank --model Alphafold
+ nextflow run P2RankPipeline.nf --inputds absolute/path/test/test.ds --outdir ./results/ --predictor P2Rank --model Alphafold
 
 # Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
-nextflow run P2RankPipeline.nf --inputds ./test/test.ds --outdir ./results/ --predictor P2Rank
+nextflow run P2RankPipeline.nf --inputds /absolute/path/test/test.ds --outdir ./results/ --predictor P2Rank
 ```
