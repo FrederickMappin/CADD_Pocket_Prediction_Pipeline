@@ -38,7 +38,7 @@ Required arguments:
     --outdir                       Specifies where to save the output from the nextflow run
 ```
 
-# Testing and set-up 
+## Testing and set-up 
 
 Dataset files "file.ds" require that the absolute path be used, an example file can be found in the test folder:
 
