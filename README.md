@@ -26,8 +26,6 @@ nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /pat
 
 nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank
 
-
-
 Required arguments:
 
     --inputdir or inputds                       Directory for input PDB files or dataset file
