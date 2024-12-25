@@ -35,5 +35,5 @@ Required arguments:
     --model                                     Model to use for P2Rank (Alphafold or Normal)
 
     Save options:
-    --outdir                       Specifies where to save the output from the nextflow run.
+    --outdir                       Specifies where to save the output from the nextflow run
 ```
