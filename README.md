@@ -52,7 +52,7 @@ Dataset files "file.ds" require that the absolute path be used, an example file 
 
 ```
 
-nf-Pocket Prediction requires little set-up assuming you have nextflow and Docker probably installed. nf-Pocket Prediction was testing locally, gitpod, and github's codespace. Required Docker containers are automatically pulled from repo for use and indicated in the config file. 
+nf-Pocket Prediction requires little set-up assuming you have nextflow and Docker probably installed. nf-Pocket Prediction was tested locally, gitpod, and github's codespace. Required Docker containers are automatically pulled from repo for use and indicated in the config file, dockerfile used to make image also inculded but likely dont need to build. 
 
 If setting up for the first time it is suggested to run testing using test data found in the test folder.
 
