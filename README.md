@@ -16,7 +16,7 @@ nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /pat
 
 # Run FPocket Predictor on a Directory of PDB files 
 
- nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank 
+ nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor fpocket 
 
 # Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
 
@@ -36,4 +36,26 @@ Required arguments:
 
     Save options:
     --outdir                       Specifies where to save the output from the nextflow run
+```
+
+# Testing and set-up 
+
+nf-Pocket Prediciton requires little set-up assuming you have nextflow and Docker probably installed. Required Docker containers are automatically pulled for use and indicated in the config file. If setting up for the first time it is suggested to run testing using test data found in the test folder.
+
+```
+# Run P2Rank Predictor on a Directory of PDB files 
+
+nextflow run P2RankPipeline.nf --inputdir$projectDir/test/ --outdir $projectDir/results/ --predictor P2Rank 
+
+# Run FPocket Predictor on a Directory of PDB files 
+
+ nextflow run P2RankPipeline.nf --inputdir $projectDir/results/ --outdir $projectDir/results/ --predictor fpocket
+
+# Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
+
+ nextflow run P2RankPipeline.nf --inputds $projectDir/results/test.ds --outdir $projectDir/results/ --predictor P2Rank --model Alphafold
+
+# Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
+
+nextflow run P2RankPipeline.nf --inputds $projectDir/results/test.ds --outdir $projectDir/results/ --predictor P2Rank
 ```
