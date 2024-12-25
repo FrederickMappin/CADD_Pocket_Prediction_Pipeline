@@ -7,7 +7,7 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 
 ## Usage 
 
- nf-Pocket Prediction has four different mode that difer based on input type , protein model, and pocket predictor. 
+nf-Pocket Prediction has four different mode that difer based on input type , protein model, and pocket predictor. 
 
 #### Run P2Rank Predictor on a Directory of PDB files 
 
@@ -24,3 +24,17 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 #### Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
 ```nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank ```
+
+
+
+Required arguments:
+
+    --inputdir or inputds                       Directory for input PDB files or dataset file
+    --predictor                                 Pocket predictor to use (P2Rank or Fpocket)
+
+    Optional arguments:
+    --model                                     Model to use for P2Rank (Alphafold or Normal)
+
+    Save options:
+    --outdir                       Specifies where to save the output from the nextflow run.
+
