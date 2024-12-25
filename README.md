@@ -45,9 +45,10 @@ Dataset files "file.ds" require that the absolute path be used, an example file 
 ```
 # no header => dataset contains list of protein files
 
-/Users/FrederickMappin/Desktop/alpha/AAEL000614.pdb
-/Users/FrederickMappin/Desktop/alpha/AAEL000616.pdb
-/Users/FrederickMappin/Desktop/alpha/AAEL000628.pdb
+/Users/FrederickMappin/Desktop/test/AAEL000614.pdb
+/Users/FrederickMappin/Desktop/test/AAEL000616.pdb
+/Users/FrederickMappin/Desktop/test/AAEL000628.pdb
+/Users/FrederickMappin/Desktop/test/AAEL001221.pdb
 
 ```
 
