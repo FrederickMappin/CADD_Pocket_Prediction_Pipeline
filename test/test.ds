@@ -1,8 +1,7 @@
 
 # no header => dataset contains list of protein files
 
-
-/Users/FrederickMappin/Desktop/test/AAEL000614.pdb
-/Users/FrederickMappin/Desktop/test/AAEL000616.pdb
-/Users/FrederickMappin/Desktop/test/AAEL000628.pdb
-/Users/FrederickMappin/Desktop/test/AAEL001221.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000614.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000616.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL000628.pdb
+/workspaces/CADD_Pocket_Prediction_Pipeline/test/AAEL001221.pdb
