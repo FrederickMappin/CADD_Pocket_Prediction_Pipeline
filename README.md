@@ -40,7 +40,7 @@ Required arguments:
 
 # Testing and set-up 
 
-Dataset files "file.ds" require that the absolute path an example file can be found in the test folder:
+Dataset files "file.ds" require that the absolute path be used, an example file can be found in the test folder:
 
 ```
 # no header => dataset contains list of protein files
