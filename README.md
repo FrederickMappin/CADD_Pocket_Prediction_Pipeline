@@ -52,7 +52,9 @@ Dataset files "file.ds" require that the absolute path be used, an example file 
 
 ```
 
-nf-Pocket Prediction requires little set-up assuming you have nextflow and Docker probably installed. Required Docker containers are automatically pulled for use and indicated in the config file. If setting up for the first time it is suggested to run testing using test data found in the test folder.
+nf-Pocket Prediction requires little set-up assuming you have nextflow and Docker probably installed. nf-Pocket Prediction was testing locally, gitpod, and github's codespace. Required Docker containers are automatically pulled from repo for use and indicated in the config file. 
+
+If setting up for the first time it is suggested to run testing using test data found in the test folder.
 
 ```
 # Run P2Rank Predictor on a Directory of PDB files 
