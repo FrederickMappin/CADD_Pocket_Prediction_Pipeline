@@ -7,9 +7,9 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 
 ## Usage 
 
-```
 nf-Pocket Prediction has four different mode that difer based on input type , protein model, and pocket predictor. 
 
+```
 # Run P2Rank Predictor on a Directory of PDB files 
 
 nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /path/to/your/directory/ --predictor P2Rank 
