@@ -45,7 +45,7 @@ nf-Pocket Prediciton requires little set-up assuming you have nextflow and Docke
 ```
 # Run P2Rank Predictor on a Directory of PDB files 
 
-nextflow run P2RankPipeline.nf --inputdir$projectDir/test/ --outdir $projectDir/results/ --predictor P2Rank 
+nextflow run P2RankPipeline.nf --inputdir $projectDir/test/ --outdir $projectDir/results/ --predictor P2Rank 
 
 # Run FPocket Predictor on a Directory of PDB files 
 
