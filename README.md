@@ -24,7 +24,7 @@ nextflow run P2RankPipeline.nf --inputdir /path/to/your/directory/ --outdir /pat
 
 # Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
-nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank ```
+nextflow run P2RankPipeline.nf --inputds /path/to/your/directory/file.ds --outdir /path/to/your/directory/ --predictor P2Rank
 
 
 
@@ -38,4 +38,4 @@ Required arguments:
 
     Save options:
     --outdir                       Specifies where to save the output from the nextflow run.
-
+```
