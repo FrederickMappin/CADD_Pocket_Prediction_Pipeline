@@ -53,9 +53,9 @@ nextflow run P2RankPipeline.nf --inputdir $projectDir/test/ --outdir $projectDir
 
 # Run P2Rank Predictor on a Dataset of Alphafold PDB files (Recommended for Alphafold models)
 
- nextflow run P2RankPipeline.nf --inputds $projectDir/results/test.ds --outdir $projectDir/results/ --predictor P2Rank --model Alphafold
+ nextflow run P2RankPipeline.nf --inputds $projectDir/test/test.ds --outdir $projectDir/results/ --predictor P2Rank --model Alphafold
 
 # Run P2Rank Predictor on a Dataset of non-Alphafold PDB files 
 
-nextflow run P2RankPipeline.nf --inputds $projectDir/results/test.ds --outdir $projectDir/results/ --predictor P2Rank
+nextflow run P2RankPipeline.nf --inputds $projectDir/test/test.ds --outdir $projectDir/results/ --predictor P2Rank
 ```
