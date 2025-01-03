@@ -43,14 +43,16 @@ Required arguments:
     --outdir                       Specifies where to save the output from the nextflow run
 ```
 
-## Command Generator GUI 
+## Command Generator app
 
  ```
 streamlit run command_gen.py
 ```
-This is a pop up a GUI that can be used to write and Run the command into the CLI and is optional. 
+This is a pop up a command generator app that can be used to write the command to be copied and run in CLI.
 
-<img width="337" alt="Screenshot 2025-01-03 at 3 36 42 PM" src="https://github.com/user-attachments/assets/ff072a5b-6dc3-444e-9b29-ecc016d27c36" />
+<img width="642" alt="Screenshot 2025-01-03 at 5 36 04 PM" src="https://github.com/user-attachments/assets/d7a7af40-dfa8-463a-bc6b-12e2b50fd29b" />
+
+
 
 ## Testing and set-up 
 
