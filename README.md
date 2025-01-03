@@ -43,6 +43,14 @@ Required arguments:
     --outdir                       Specifies where to save the output from the nextflow run
 ```
 
+# Command Generator GUI 
+
+ ```
+streamlit run command_gen.py
+```
+This is pop up a GUI that can be used to write and Run the command into the CLI. 
+<img width="768" alt="Screenshot 2025-01-03 at 3 30 42 PM" src="https://github.com/user-attachments/assets/1fd585fc-2210-444f-aa98-d7edf47fea30" />
+
 ## Testing and set-up 
 
 Dataset files "file.ds" require that the absolute path be used, an example file can be found in the test folder:
