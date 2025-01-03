@@ -48,7 +48,7 @@ Required arguments:
  ```
 streamlit run command_gen.py
 ```
-This is pop up a GUI that can be used to write and Run the command into the CLI. 
+This is a pop up a GUI that can be used to write and Run the command into the CLI and is optional. 
 
 <img width="337" alt="Screenshot 2025-01-03 at 3 36 42 PM" src="https://github.com/user-attachments/assets/ff072a5b-6dc3-444e-9b29-ecc016d27c36" />
 
