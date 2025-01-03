@@ -43,7 +43,7 @@ Required arguments:
     --outdir                       Specifies where to save the output from the nextflow run
 ```
 
-# Command Generator GUI 
+## Command Generator GUI 
 
  ```
 streamlit run command_gen.py
