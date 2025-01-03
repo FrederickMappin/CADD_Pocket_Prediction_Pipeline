@@ -5,7 +5,7 @@ The pipeline is built using Nextflow, a workflow tool to run tasks across multip
 
 
 ## Dependencies 
-Nf-pocket prediction require running in an enviorment with installations of,please go to source for installation instructions:
+Nf-pocket prediction require running in an enviorment containing the listed programs. Please go to source for installation instructions:
 - Nextflow
 - Docker
 - streamlit (optional to run command generator tool)  
