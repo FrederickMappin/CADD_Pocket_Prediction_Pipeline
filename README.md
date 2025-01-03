@@ -50,7 +50,8 @@ streamlit run command_gen.py
 ```
 This is a pop up a command generator app that can be used to write the command to be copied and run in CLI.
 
-<img width="642" alt="Screenshot 2025-01-03 at 5 36 04 PM" src="https://github.com/user-attachments/assets/d7a7af40-dfa8-463a-bc6b-12e2b50fd29b" />
+<img width="333" alt="Screenshot 2025-01-03 at 5 37 49 PM" src="https://github.com/user-attachments/assets/f347020e-030e-41fd-b47c-3c550b9daafe" />
+
 
 
 
