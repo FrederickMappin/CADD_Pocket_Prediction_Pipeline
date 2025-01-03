@@ -4,7 +4,7 @@ nf-pocket prediction is a workflow designed to allow robust usage of P2rank and 
 The pipeline is built using Nextflow, a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It uses Docker containers making installation trivial and results highly reproducible. 
 
 
-# Dependencies 
+## Dependencies 
 Nf-pocket prediction require running in an enviorment with installations of:
 - Nextflow
 - Docker
