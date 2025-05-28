@@ -3,7 +3,7 @@
     <td align="center">
       <img src="https://github.com/FrederickMappin/CADD_Pocket_Prediction_Pipeline/blob/main/image1.png" alt="Centered image" />
       <br/>
-       <b><big><big><big>This is bigger and bold centered text</big></big></big></b>
+       <b><big>This is bigger and bold centered text</big></b>
     </td>
   </tr>
 </table>
