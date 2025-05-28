@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/75921dc5-e078-4499-aa30-5b593634f5b7/file_00000000fd1c61f7b91424b591220e1f" alt="Centered image" />
+  <img src="https://github.com/FrederickMappin/CADD_Pocket_Prediction_Pipeline/blob/main/image1.png" alt="Centered image" />
 </p>
 
 # NF-Pocket Prediction
