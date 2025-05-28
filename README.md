@@ -3,7 +3,7 @@
     <td align="center">
       <img src="https://github.com/FrederickMappin/CADD_Pocket_Prediction_Pipeline/blob/main/image1.png" alt="Centered image" />
       <br/>
-      <h2>This is big, bold, centered text</h2>
+      <h1>nf-core pocket prediction</h1>
     </td>
   </tr>
 </table>
