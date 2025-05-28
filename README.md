@@ -1,5 +1,6 @@
-                                                                 ![file_00000000fd1c61f7b91424b591220e1f](https://github.com/user-attachments/assets/024033b4-bf92-4f82-8fc0-5a7d722afd06)
-
+<p align="center">
+  <img src="["](https://github.com/user-attachments/assets/88066077-3675-4805-819e-9e35a6f1d8b1) alt="GitHub Logo" width="100"/>
+</p>
 
 
 # NF-Pocket Prediction
