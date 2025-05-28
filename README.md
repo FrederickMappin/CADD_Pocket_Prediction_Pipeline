@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/FrederickMappin/CADD_Pocket_Prediction_Pipeline/blob/main/image1.png" alt="Centered image" />
-</p>
+ <br/>
 <strong>This is centered bold text</strong>
 </p>
 # NF-Pocket Prediction
