@@ -1,5 +1,5 @@
 
-![file_00000000fd1c61f7b91424b591220e1f](https://github.com/user-attachments/assets/ac4a803a-7142-4fea-81fc-a5d92bfb39fd)
+![file_00000000fd1c61f7b91424b591220e1f](https://github.com/user-attachments/assets/75921dc5-e078-4499-aa30-5b593634f5b7)
 
 
 # NF-Pocket Prediction
